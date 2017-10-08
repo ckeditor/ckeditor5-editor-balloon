@@ -1,0 +1,30 @@
+<br /><br /><br /><div id="editor" contenteditable="true" class="custom-class">
+	<p>Create a todo list POC using CKEditor 5 with bold, italic, link.</p>
+</div>
+
+<style>
+	body {
+		width: 10000px;
+		height: 10000px;
+	}
+
+	#editor {
+		width: 540px;
+		border: 1px solid #cacaca;
+	}
+
+	figure.todo {
+		position: relative;
+	}
+
+	figure.todo.checked {
+		text-decoration: line-through;
+	}
+
+	figure.todo > input {
+		position: absolute;
+		left: -25px;
+		top: 0;
+		cursor: pointer;
+	}
+</style>
